@@ -6,7 +6,12 @@ $conf['debug'] = false;
 
 $conf['token.file'] = '';
 
-$conf['logging.logfile'] = '../log/app.log';
+$conf['security.secret'] = ''; //use a randomly generated secret here
 
+$conf['monolog.logfile'] = '../log/app.log';
+
+$conf['security.authenticator'] = function() use ($conf) {
+    return $conf['security.authenticator.null']; //preconfigured to NullAuthenticator
+};
 
 ?>
