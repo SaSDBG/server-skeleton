@@ -1,0 +1,32 @@
+{
+    "name": "sasdbg/server-skeleton",
+    "description": "Skeleton for a RESTful API-Server",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "drak3",
+            "email": "drak3@live.de"
+        }
+    ],
+            
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SaSDBG/server-utils"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/SaSDBG/token-registry"
+        }
+    ],
+            
+    "require": {
+        "sasdbg/server-utils": "dev-master",
+        "sasdbg/token-registry": "dev-master",
+        "monolog/monolog": "1.5.*"
+    },
+            
+    "autoload": {
+        "psr-0": { "SaS": ["src/", "test/src/"] }
+    }
+}
