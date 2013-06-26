@@ -10,8 +10,8 @@ $app['controllers'] = require('controllers.php');
 
 function include_conf(\Silex\Application $app) {
     $conf = $app;
-    require '../config/domain.conf.php';
-    require '../config/app.conf.php';
+    require APP_BASE_DIR.'config/domain.conf.php';
+    require APP_BASE_DIR.'config/app.conf.php';
 }
 
 ?>

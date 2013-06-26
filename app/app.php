@@ -1,12 +1,13 @@
 <?php
 
 use Silex\Application;
+define('APP_BASE_DIR', __DIR__.'/../');
 
-require(__DIR__.'/../vendor/autoload.php');
+require(APP_BASE_DIR.'vendor/autoload.php');
 
 $app = new Application;
 
-require_once('configure_app.php');
+require_once('./configure_app.php');
 
 return $app;
 
