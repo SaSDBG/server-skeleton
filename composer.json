@@ -23,7 +23,8 @@
     "require": {
         "sasdbg/server-utils": "dev-master",
         "sasdbg/token-registry": "dev-master",
-        "monolog/monolog": "1.5.*"
+        "monolog/monolog": "1.5.*",
+        "doctrine/dbal": "2.3.*"
     },
             
     "autoload": {

@@ -14,4 +14,12 @@ $conf['security.authenticator'] = function() use ($conf) {
     return $conf['security.authenticator.null']; //preconfigured to NullAuthenticator
 };
 
+$conf['db.params'] = [
+    'dbname' => 'sas',
+    'user' => 'root',
+    'password' => '',
+    'host' => 'localhost',
+    'driver' => 'pdo_mysql',
+];
+
 ?>
