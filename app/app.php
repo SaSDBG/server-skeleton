@@ -7,7 +7,7 @@ require(APP_BASE_DIR.'vendor/autoload.php');
 
 $app = new Application;
 
-require_once('./configure_app.php');
+require_once(APP_BASE_DIR.'app/configure_app.php');
 
 return $app;
 
