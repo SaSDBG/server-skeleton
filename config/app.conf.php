@@ -4,7 +4,7 @@
 
 $conf['debug'] = false;
 
-$conf['token.token_file'] = '';
+$conf['token.file'] = '';
 
 $conf['security.secret'] = ''; //use a randomly generated secret here
 
