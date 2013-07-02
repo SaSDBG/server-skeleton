@@ -289,12 +289,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SaSDBG/server-utils.git",
-                "reference": "20321f543e00db491a0829c8fd58b1033aec3743"
+                "reference": "4b894413c4be2501dc4caa554ce88680ec965c9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SaSDBG/server-utils/zipball/20321f543e00db491a0829c8fd58b1033aec3743",
-                "reference": "20321f543e00db491a0829c8fd58b1033aec3743",
+                "url": "https://api.github.com/repos/SaSDBG/server-utils/zipball/4b894413c4be2501dc4caa554ce88680ec965c9e",
+                "reference": "4b894413c4be2501dc4caa554ce88680ec965c9e",
                 "shasum": ""
             },
             "require": {
@@ -328,7 +328,7 @@
                 "source": "https://github.com/SaSDBG/server-utils/tree/master",
                 "issues": "https://github.com/SaSDBG/server-utils/issues"
             },
-            "time": "2013-06-26 14:56:19"
+            "time": "2013-06-27 15:34:52"
         },
         {
             "name": "sasdbg/token-registry",
