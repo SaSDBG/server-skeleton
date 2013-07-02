@@ -9,6 +9,8 @@ $app = new Application;
 
 require_once(APP_BASE_DIR.'app/configure_app.php');
 
+$app->boot();
+
 return $app;
 
 ?>
