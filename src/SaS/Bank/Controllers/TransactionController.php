@@ -9,9 +9,9 @@ use Symfony\Component\HttpFoundation\JsonResponse;
  *
  * @author drak3
  */
-class TransferController extends \SaS\Controller\AbstractController {
+class TransactionController extends \SaS\Controller\AbstractController {
     
-    protected $route = "/ueberweisung";
+    protected $route = "/konto/auszug";
     protected $method = "POST|GET";
     
     
@@ -24,29 +24,13 @@ class TransferController extends \SaS\Controller\AbstractController {
             'buergerPasswort' => [
                 'required' => [1002,'buergerPasswort wird benötigt']
             ],
-            'loginID' => [
+            'baID' => [
                 'required' => [1000, 'baID wird benötigt'],
                 'int' => [234, 'baID muss int sein']
             ],
-            'loginPasswort' => [
-                'required' => [1000, 'loginPasswort wird benötigt']
+            'kNr' => [
+                'required' => [234, 'kNr wird benötigt'],
             ],
-            'quellKNr' => [
-                'required' => [234, 'quellKNr wird benötigt'],
-            ],
-            'zielKNr' => [
-                'required' => [234, 'zielKNr wird benötigt'],
-            ],
-            'betrag' => [
-                'required' => [234, 'betrag wird benötigt'],
-                'int' => [234, 'betrag muss int sein']
-            ],
-            'verwendungszweck' => [
-                'required' => [63, 'verwendungszweck wird benötigt'],
-            ],
-            'bemerkungen' => [
-                'required' => [234, 'bemerkungen wird benötigt']
-            ]
         ];
     }
     
