@@ -6,7 +6,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   `roles` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `isChief` boolean NOT NULL,
   `chiefOf_ID` int(11)  DEFAULT NULL,
-  `chiefOf_Name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=1 ;
 
