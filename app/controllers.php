@@ -1,7 +1,8 @@
 <?php
 
 return [
-  //insert controllers here  
+  new SaS\Bank\Controllers\LoginController,
+  new SaS\Bank\Controllers\TransferController,
 ];
 
 ?>

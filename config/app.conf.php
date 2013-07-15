@@ -2,22 +2,22 @@
 
 //put app specific configuration here
 
-$conf['debug'] = false;
+$conf['debug'] = true;
 
-$conf['token.file'] = '';
+$conf['token.token_file'] = __DIR__.'/tokens.php';
 
-$conf['security.secret'] = ''; //use a randomly generated secret here
+$conf['security.secret'] = 'sdfsdfwerwerwfsdgfrgg'; //use a randomly generated secret here
 
-$conf['monolog.logfile'] = '../log/app.log';
+$conf['monolog.logfile'] = __DIR__.'/../log/app.log';
 
 $conf['security.authenticator'] = function() use ($conf) {
     return $conf['security.authenticator.null']; //preconfigured to NullAuthenticator
 };
 
 $conf['db.params'] = [
-    'dbname' => 'sas',
+    'dbname' => 'sas-test',
     'user' => 'root',
-    'password' => '',
+    'password' => 'foobar',
     'host' => 'localhost',
     'driver' => 'pdo_mysql',
 ];

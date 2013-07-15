@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c87009615bca03ca037d2b2067281660",
+    "hash": "45da4811b2720a6c5f9a3bc0e62049fa",
     "packages": [
         {
             "name": "doctrine/common",
@@ -136,6 +136,45 @@
                 "queryobject"
             ],
             "time": "2013-05-11 07:45:37"
+        },
+        {
+            "name": "ircmaxell/password-compat",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ircmaxell/password_compat.git",
+                "reference": "v1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ircmaxell/password_compat/zipball/v1.0.3",
+                "reference": "v1.0.3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/password.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anthony Ferrara",
+                    "email": "ircmaxell@php.net",
+                    "homepage": "http://blog.ircmaxell.com"
+                }
+            ],
+            "description": "A compatibility library for the proposed simplified password hashing algorithm: https://wiki.php.net/rfc/password_hash",
+            "homepage": "https://github.com/ircmaxell/password_compat",
+            "keywords": [
+                "hashing",
+                "password"
+            ],
+            "time": "2013-04-30 19:58:08"
         },
         {
             "name": "monolog/monolog",
@@ -289,12 +328,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/SaSDBG/server-utils.git",
-                "reference": "4670d2b774bacd396ad32cbc555c778bfb22a9c2"
+                "reference": "aa5d98fc0c5c1bd36a7e3463672f6b38550d4233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SaSDBG/server-utils/zipball/4670d2b774bacd396ad32cbc555c778bfb22a9c2",
-                "reference": "4670d2b774bacd396ad32cbc555c778bfb22a9c2",
+                "url": "https://api.github.com/repos/SaSDBG/server-utils/zipball/aa5d98fc0c5c1bd36a7e3463672f6b38550d4233",
+                "reference": "aa5d98fc0c5c1bd36a7e3463672f6b38550d4233",
                 "shasum": ""
             },
             "require": {
@@ -329,7 +368,7 @@
                 "source": "https://github.com/SaSDBG/server-utils/tree/master",
                 "issues": "https://github.com/SaSDBG/server-utils/issues"
             },
-            "time": "2013-07-02 14:29:03"
+            "time": "2013-07-14 22:38:42"
         },
         {
             "name": "sasdbg/token-registry",
@@ -372,16 +411,16 @@
         },
         {
             "name": "silex/silex",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Silex.git",
-                "reference": "v1.0.0"
+                "reference": "v1.0.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Silex/zipball/v1.0.0",
-                "reference": "v1.0.0",
+                "url": "https://api.github.com/repos/fabpot/Silex/zipball/v1.0.1",
+                "reference": "v1.0.1",
                 "shasum": ""
             },
             "require": {
@@ -394,7 +433,7 @@
             },
             "require-dev": {
                 "doctrine/dbal": ">=2.2.0,<2.4.0-dev",
-                "monolog/monolog": ">=1.4,<2.0,>=1.4.1",
+                "monolog/monolog": "~1.4,>=1.4.1",
                 "swiftmailer/swiftmailer": "5.*",
                 "symfony/browser-kit": ">=2.1,<2.4-dev",
                 "symfony/config": ">=2.1,<2.4-dev",
@@ -450,7 +489,7 @@
             "keywords": [
                 "microframework"
             ],
-            "time": "2013-05-03 16:49:57"
+            "time": "2013-07-04 06:25:40"
         },
         {
             "name": "symfony/event-dispatcher",
